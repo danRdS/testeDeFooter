@@ -1,0 +1,134 @@
+body {
+    background-color: rgb(97, 120, 121);
+}
+
+div {
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    margin-top: 200px;
+    font-size: 20px;
+}
+
+#tema {
+    background: linear-gradient(224.85deg, #052041 14.26%, darkturquoise 96.03%);
+    color: navy;
+    font-family: Arial;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 9px;
+    padding: 8px 14px;
+    margin-top: 12px;
+    margin-left: 80%;
+    margin-bottom: 30px;
+    height: 35px;
+}
+
+#tema:hover {
+    background: linear-gradient(134.85deg, darkcyan 96.03%, #000409 22.26%);
+    color: cyan;
+    font-weight: bold;
+    border: 2px solid;
+    border-color: aqua;
+}
+
+nav {
+    background: linear-gradient(192.85deg, #000409 18.26%, rgb(104, 17, 17) 96.03%);
+    height: 178px;
+    margin-top: 25%;
+    width: 100%;
+}
+
+ul#ul-principal {
+    display: block;
+    list-style: none;
+    margin: auto;
+    width: 95%;
+}
+
+li {
+    line-height: 50px;
+    float: left;
+    color: aliceblue;
+    padding: 0px 6px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 0px 20px;
+    border-radius: 40px;
+    border: 3px;
+    opacity: .9;
+    border-color: rgba(255, 255, 255, 0.404);
+    border-style: solid;
+    padding: 3px;
+}
+
+a:hover {
+    background-color: rgba(255, 255, 255, 0.304) /* alpha = transparência*/
+}
+
+img {
+    width: 40px;
+    max-width: 40px;
+    max-height: 40px;
+    display: block;
+    justify-items: center;
+}
+
+img.img__linkedin {
+    width: 31px;
+    height: 31px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+img.img__youtube {
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.dark {
+    background-color:rgb(25, 22, 29) ;
+}
+
+.dark h1, .dark p {
+    color: azure;
+}
+
+.dark #tema {
+    background: linear-gradient(236.85deg, #000409 27.26%, #3468a7 96.03%);
+    color: rgb(98, 175, 194);
+    font-family: Arial;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 9px;
+    border: 2px solid rgb(98, 175, 194);
+    padding: 8px 14px;
+    margin-left: 80%;
+    margin-bottom: 30px;
+    height: 35px;
+}
+
+.dark #tema:hover {
+    background: linear-gradient(236.85deg, #07244b 8.26%, #7db5c7d8 97.26%);
+    color: rgb(98, 175, 194);
+    font-size: 17px;
+    font-weight: bold;
+}
